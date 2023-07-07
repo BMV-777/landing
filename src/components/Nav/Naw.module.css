@@ -1,0 +1,27 @@
+.container {
+  /* outline: 1px solid tomato; */
+  display: flex;
+  width: 655px;
+  height: 23px;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 15px;
+  font: bold;
+  margin-left: 30px;
+
+  /* margin-top: 30px; */
+  /* padding: auto; */
+  /* margin-left: 20px; */
+}
+
+.list_a {
+  text-decoration: none;
+}
+
+.list_span {
+  margin-left: 3px;
+}
+
+/* .list:nth-child(n) {
+  margin-left: 20px;
+} */

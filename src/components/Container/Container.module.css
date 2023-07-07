@@ -1,0 +1,12 @@
+.container {
+  /* outline: 1px solid tomato; */
+  display: flex;
+  width: 1171px;
+  height: 95px;
+  background-color: white;
+  align-items: center;
+  /* text-align: center;
+  justify-content: center; */
+  margin: auto;
+  margin-bottom: 10px;
+}

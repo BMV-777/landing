@@ -1,0 +1,11 @@
+.menu {
+  margin-left: auto;
+}
+
+.menu > img:nth-child(-n + 2) {
+  margin-right: 5px;
+}
+
+/* .menu_list:nth-child(n + 2) {
+  margin-right: 15px;
+} */
