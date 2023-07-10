@@ -5,7 +5,7 @@ import css from "./Naw.module.css";
 const Naw = () => {
   return (
     <>
-      <nav className={css.container}>
+      <nav className={css.container_naw}>
         <div className={css.list}>
           <a href="/" className={css.list_a}>
             Occasions

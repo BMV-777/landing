@@ -6,6 +6,8 @@ import React from "react";
 import "./App.css";
 import Container from "./components/Container/Container";
 import Title from "./components/Title/Title";
+import ImagTell from "./components/ImagTell/ImagTell";
+import DishMenu from "./components/DishMenu/DishMenu";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <div className="container-header">
         <Title />
         <Container />
+        <ImagTell />
+        <DishMenu />
       </div>
 
       {/* <Header />

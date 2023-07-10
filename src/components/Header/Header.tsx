@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <img src={logo} width="110" height="90" alt="" />
+        <img src={logo} width="110" height="90" alt="brand" />
       </header>
     </>
   );

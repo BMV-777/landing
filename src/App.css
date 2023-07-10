@@ -36,10 +36,12 @@
     transform: rotate(360deg);
   }
 } */
-
+body {
+  background-color: aqua;
+}
 .container {
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   /* display: flex; */
   width: 1280px;
   height: 170px;
