@@ -52,3 +52,8 @@ body {
   width: 1280;
   height: 68px;
 }
+
+p,
+h1 {
+  margin: 0;
+}

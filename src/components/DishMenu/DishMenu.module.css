@@ -1,0 +1,46 @@
+.block {
+  /* margin: 0;
+  padding: 0; */
+  width: 1280px;
+  background-color: white;
+}
+
+.container_dishMenu {
+  width: 1170px;
+  height: 412px;
+  /* margin-top: 50px; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif 400;
+  /* width: 206px;
+  height: 40px; */
+}
+
+.title_color {
+  color: orange;
+  margin-left: 10px;
+}
+
+.list_cards {
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+.list_block {
+  width: 270px;
+  height: 332px;
+  text-align: center;
+  background-color: #f7f5f0;
+}
+
+.list_quantity {
+}
