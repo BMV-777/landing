@@ -8,6 +8,7 @@ import Container from "./components/Container/Container";
 import Title from "./components/Title/Title";
 import ImagTell from "./components/ImagTell/ImagTell";
 import DishMenu from "./components/DishMenu/DishMenu";
+import AboutUs from "./components/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Container />
         <ImagTell />
         <DishMenu />
+        <AboutUs />
       </div>
 
       {/* <Header />

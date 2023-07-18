@@ -1,0 +1,42 @@
+.block {
+  width: 1280px;
+  background-color: white;
+}
+
+.block_cards {
+  width: 1170px;
+  height: 418px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif 400;
+}
+.title_span {
+  color: orange;
+}
+
+.list_contents {
+  margin-top: 20px;
+}
+
+.list_item {
+  margin-top: 18px;
+}
+
+.block_menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px;
+  /* margin: auto; */
+}
+
+.block_list {
+  width: 210px;
+  height: 301px;
+  font-size: 18px;
+  margin: 0.4em;
+  /* text-indent: 0.5mm; */
+}

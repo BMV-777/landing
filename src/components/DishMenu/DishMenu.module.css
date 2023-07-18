@@ -1,28 +1,29 @@
 .block {
-  /* margin: 0;
-  padding: 0; */
   width: 1280px;
+  height: 89vh;
   background-color: white;
 }
 
-.container_dishMenu {
+.block_card {
   width: 1170px;
   height: 412px;
-  /* margin-top: 50px; */
+  margin: auto;
+}
+
+.container_dishMenu {
+  padding-top: 25px;
   align-items: center;
   text-align: center;
-  justify-content: center;
+
   display: flex;
   justify-content: space-between;
 }
 
 .title {
-  margin: 0;
+  padding-top: 65px;
   text-align: center;
   font-size: 24px;
   font-family: "Raleway", sans-serif 400;
-  /* width: 206px;
-  height: 40px; */
 }
 
 .title_color {
@@ -40,7 +41,27 @@
   height: 332px;
   text-align: center;
   background-color: #f7f5f0;
+  border-radius: 20px;
 }
 
-.list_quantity {
+.list_quantity > p {
+  padding-top: 18px;
+}
+
+.button {
+  width: 230px;
+  height: 40px;
+  margin-top: 18px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.promotion {
+  font-size: 20px;
+  color: orange;
+  margin-right: 10px;
+}
+
+.price {
+  text-decoration: line-through;
 }
