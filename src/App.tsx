@@ -9,6 +9,7 @@ import Title from "./components/Title/Title";
 import ImagTell from "./components/ImagTell/ImagTell";
 import DishMenu from "./components/DishMenu/DishMenu";
 import AboutUs from "./components/AboutUs/AboutUs";
+import OurGoals from "./components/OurGoals/OurGoals";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <ImagTell />
         <DishMenu />
         <AboutUs />
+        <OurGoals />
       </div>
 
       {/* <Header />
