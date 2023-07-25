@@ -50,8 +50,8 @@ const OurGoals = () => {
               <img
                 src={Vector}
                 alt="vector"
-                width="5"
-                height="5"
+                width="5px"
+                height="15px"
                 className={css.image_vector}
               />
             </li>
@@ -82,7 +82,7 @@ const OurGoals = () => {
                 className={css.image_vector}
               />
             </li>
-            <li>
+            <li className={css.end}>
               <img
                 src={Vector}
                 alt="vector"
@@ -93,8 +93,8 @@ const OurGoals = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <button>Discover our Producers</button>
+        <div className={css.btn_line}>
+          <button className={css.btn}>Discover our Producers</button>
         </div>
         <div className={css.images}>
           <img src={Images} alt="blueberry" width="570" height="487" />

@@ -1,0 +1,65 @@
+.block {
+  width: 1280px;
+  height: 55vh;
+  background-color: white;
+}
+
+.sections {
+  width: 1170px;
+  height: 276px;
+  margin: 0 auto;
+  padding-top: 52px;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+}
+
+.title_span {
+  color: orange;
+  /* text-decoration: underline; */
+  border-bottom: 3px solid orange;
+}
+
+.list {
+  padding-top: 36px;
+  position: relative;
+  text-align: center;
+  /* margin-left: 15px; */
+}
+
+.list_item {
+  padding: 15px;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.4), 0 28px 30px rgba(0, 0, 0, 0.3);
+  /* box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3),
+    1px 1px 5px rgba(255, 255, 255, 1); */
+}
+
+.list_item:nth-last-child(-n + 5) {
+  margin-left: 25px;
+}
+
+.list_vector1 {
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  width: 35px;
+  height: 35px;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.list_vector2 {
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  width: 35px;
+  height: 35px;
+
+  position: absolute;
+  top: 50%;
+  left: 97%;
+}

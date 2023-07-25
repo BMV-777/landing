@@ -1,0 +1,40 @@
+.block {
+  width: 1280px;
+  background-color: white;
+}
+
+.sections {
+  width: 1280px;
+  height: 395px;
+  padding-top: 51px;
+  position: relative;
+}
+
+.img_section {
+}
+
+.title {
+  position: absolute;
+  top: 88px;
+  left: 26.1%;
+  font-size: 45px;
+  color: white;
+}
+
+.img {
+  position: absolute;
+  top: 160px;
+  left: 46.5%;
+  color: white;
+}
+
+.btn {
+  position: absolute;
+  top: 320px;
+  left: 37%;
+  width: 330px;
+  height: 45px;
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+}

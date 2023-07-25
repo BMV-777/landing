@@ -10,6 +10,10 @@ import ImagTell from "./components/ImagTell/ImagTell";
 import DishMenu from "./components/DishMenu/DishMenu";
 import AboutUs from "./components/AboutUs/AboutUs";
 import OurGoals from "./components/OurGoals/OurGoals";
+import Brand from "./components/Brand/Brand";
+import WorkingHome from "./components/WorkingHome/WorkingHom";
+import BlockImg from "./components/BlockImg/BlockImg";
+import WeAreHere from "./components/WeAreHere/WeAreHere";
 
 function App() {
   return (
@@ -21,10 +25,11 @@ function App() {
         <DishMenu />
         <AboutUs />
         <OurGoals />
+        <Brand />
+        <WorkingHome />
+        <BlockImg />
+        <WeAreHere />
       </div>
-
-      {/* <Header />
-      <Naw /> */}
     </div>
   );
 }
