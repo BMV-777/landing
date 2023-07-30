@@ -15,7 +15,7 @@ const WeAreHere = () => {
   return (
     <div className={css.block}>
       <div className={css.sections}>
-        <div>
+        <div className={css.sections_image}>
           <img src={Images} alt="plot" height="260" width="1280" />
         </div>
         <div>
@@ -24,7 +24,7 @@ const WeAreHere = () => {
         <div className={css.block_list}>
           <ul className={css.list}>
             <li>
-              <ImFacebook className={css.list_item} />
+              <ImFacebook className={css.list_item} width="20" height="20" />
             </li>
             <li>
               <RiInstagramLine className={css.list_item} />

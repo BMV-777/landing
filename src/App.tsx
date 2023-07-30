@@ -14,6 +14,7 @@ import Brand from "./components/Brand/Brand";
 import WorkingHome from "./components/WorkingHome/WorkingHom";
 import BlockImg from "./components/BlockImg/BlockImg";
 import WeAreHere from "./components/WeAreHere/WeAreHere";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <WorkingHome />
         <BlockImg />
         <WeAreHere />
+        <Footer />
       </div>
     </div>
   );
