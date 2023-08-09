@@ -6,9 +6,9 @@ import Images_3 from "../../img/hands.png";
 import Images_4 from "../../img/ok.png";
 import Images_5 from "../../img/heart.png";
 
-import css from "./AboutUs.module.css";
+import css from "./About.module.css";
 
-const AboutUs = () => {
+const About = () => {
   return (
     <div className={css.block}>
       <div className={css.block_cards}>
@@ -87,4 +87,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default About;

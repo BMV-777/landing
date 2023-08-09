@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link, Outlet } from "react-router-dom";
+
 import css from "./Naw.module.css";
 
 const Naw = () => {
@@ -7,36 +9,37 @@ const Naw = () => {
     <>
       <nav className={css.container_naw}>
         <div className={css.list}>
-          <a href="/" className={css.list_a}>
+          <Link to="/occasions" className={css.list_a}>
             Occasions
-          </a>
+          </Link>
           <span className={css.list_span}>v</span>
         </div>
         <div className={css.list}>
-          <a href="/" className={css.list_a}>
+          <Link to="/allCategories" className={css.list_a}>
             All Categories
-          </a>
+          </Link>
           <span className={css.list_span}>v</span>
         </div>
         <div className={css.list}>
-          <a href="/" className={css.list_a}>
+          <Link to="/giftsBundles" className={css.list_a}>
             Gifts & Bundles
-          </a>
+          </Link>
           <span className={css.list_span}>v</span>
         </div>
         <div className={css.list}>
-          <a href="/" className={css.list_a}>
+          <Link to="/ourBrands" className={css.list_a}>
             Our Brands
-          </a>
+          </Link>
         </div>
         <div className={css.list}>
-          <a href="/" className={css.list_a}>
+          <Link to="/aboutUs" className={css.list_a}>
             About Us
-          </a>
+          </Link>
         </div>
       </nav>
+      <Outlet />
     </>
   );
 };
 
-export default Naw;
+export { Naw };
