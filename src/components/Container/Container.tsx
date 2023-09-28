@@ -4,19 +4,6 @@ import Header from "../Header/Header";
 import { Naw } from "../Nav/Naw";
 import Menu from "../Menu/Menu";
 
-// import { Route, Routes } from "react-router-dom";
-
-// import { Occasions } from "../Nav/pages/Occasions";
-// import { AllCategories } from "../Nav/pages/AllCategories";
-// import { GiftsBundles } from "../Nav/pages/GiftsBundles";
-// import { OurBrands } from "../Nav/pages/OurBrands";
-// import { AboutUs } from "../Nav/pages/AboutUs";
-// import { NotfoundPages } from "../Nav/pages/NotfoundPages";
-
-// type Port = {
-//  children: string
-// }
-
 const Container = () => {
   return (
     <div className={css.container}>

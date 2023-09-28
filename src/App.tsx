@@ -1,13 +1,13 @@
 import React from "react";
 
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
 
-import { Occasions } from "./components/Nav/pages/Occasions";
-import { AllCategories } from "./components/Nav/pages/AllCategories";
-import { GiftsBundles } from "./components/Nav/pages/GiftsBundles";
-import { OurBrands } from "./components/Nav/pages/OurBrands";
-import { AboutUs } from "./components/Nav/pages/AboutUs";
-import { NotfoundPages } from "./components/Nav/pages/NotfoundPages";
+// import { Occasions } from "./components/Nav/pages/Occasions";
+// import { AllCategories } from "./components/Nav/pages/AllCategories";
+// import { GiftsBundles } from "./components/Nav/pages/GiftsBundles";
+// import { OurBrands } from "./components/Nav/pages/OurBrands";
+// import { AboutUs } from "./components/Nav/pages/AboutUs";
+// import { NotfoundPages } from "./components/Nav/pages/NotfoundPages";
 
 import "./App.css";
 import { Container } from "./components/Container/Container";
@@ -27,18 +27,9 @@ function App() {
     <div className="container">
       <div className="container-header">
         <Title />
-        {/* <Container /> */}
-        <Routes>
-          <Route path="/" element={<Container />}>
-            <Route path="/occasions" element={<Occasions />} />
-            <Route path="/allCategories" element={<AllCategories />} />
-            <Route path="/giftsBundles" element={<GiftsBundles />} />
-            <Route path="/ourBrands" element={<OurBrands />} />
-            <Route path="/aboutUs" element={<AboutUs />} />
-            <Route path="*" element={<NotfoundPages />} />
-          </Route>
-        </Routes>
-        {/* <ImagTell />
+        <Container />
+
+        <ImagTell />
         <DishMenu />
         <About />
         <OurGoals />
@@ -46,10 +37,21 @@ function App() {
         <WorkingHome />
         <BlockImg />
         <WeAreHere />
-        <Footer /> */}
+        <Footer />
       </div>
     </div>
   );
 }
 
 export default App;
+
+//  <Routes>
+//    <Route path="/" element={<Container />}>
+//      <Route path="/occasions" element={<Occasions />} />
+//      <Route path="/allCategories" element={<AllCategories />} />
+//      <Route path="/giftsBundles" element={<GiftsBundles />} />
+//      <Route path="/ourBrands" element={<OurBrands />} />
+//      <Route path="/aboutUs" element={<AboutUs />} />
+//      <Route path="*" element={<NotfoundPages />} />
+//    </Route>
+//  </Routes>;
